@@ -1,0 +1,13 @@
+[project]
+name = "stuff"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.11.0",
+    "huggingface-hub>=0.36.0",
+    "ipykernel>=7.1.0",
+    "numpy==1.26.4",
+    "transformers>=4.57.1",
+]
